@@ -9,7 +9,7 @@ buildscript {
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:9.1.1'
+        classpath 'com.android.tools.build:gradle:9.2.1'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
     }
 }
@@ -25,7 +25,7 @@ apply plugin: 'com.android.library'
 
 android {
     namespace 'com.lazico.qrscanner'
-    compileSdk 36
+    compileSdk 37
 
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'

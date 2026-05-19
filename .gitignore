@@ -10,6 +10,17 @@
 .history
 .svn/
 .last_build_id
+android/FakeDependency.jar
+android/android/
+android/caches/
+android/daemon/
+android/native/
+android/wrapper/
+caches/
+daemon/
+kotlin-profile/
+native/
+wrapper/
 
 # IntelliJ related
 *.iml
