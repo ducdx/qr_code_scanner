@@ -22,9 +22,10 @@ rootProject.allprojects {
 }
 
 apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
 
 android {
-    namespace 'com.lazico.qrscanner'
+    namespace 'net.touchcapture.qr.flutterqr'
     compileSdk 37
 
     sourceSets {
@@ -45,9 +46,6 @@ android {
         // Sets Java compatibility to Java 11
         sourceCompatibility JavaVersion.VERSION_17
         targetCompatibility JavaVersion.VERSION_17
-    }
-    if (project.android.hasProperty('namespace')) {
-        namespace 'net.touchcapture.qr.flutterqr'
     }
 }
 
